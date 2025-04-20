@@ -2,7 +2,8 @@ const express = require('express');
 const router = express.Router();
 const Controllers = require('../controllers');
 
-// POST /api/detect
-router.post('/', Controllers.detectController.checkPhishing);
+// GET /api/rooms
+router.get('/', Controllers.roomController.getAllRooms);
 
 module.exports = router;
+

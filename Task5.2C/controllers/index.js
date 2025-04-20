@@ -1,4 +1,5 @@
 module.exports = {
-    detectController: require('./detectController')
-  };
+  roomController: require('./roomController')
+};
+
   
